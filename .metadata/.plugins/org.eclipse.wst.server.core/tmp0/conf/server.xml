@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\S01L09 - JSP Comments" path="/S01L05_-_Hello_JSP" reloadable="true" source="org.eclipse.jst.jee.server:S01L09 - JSP Comments"/></Host>
+      <Context docBase="C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\S01L13 - JSP configuration in deployment descriptor" path="/S01L12_-_Deployment_Descriptor" reloadable="true" source="org.eclipse.jst.jee.server:S01L13 - JSP configuration in deployment descriptor"/></Host>
     </Engine>
   </Service>
 </Server>
