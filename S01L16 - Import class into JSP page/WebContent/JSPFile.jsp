@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.Date, org.ymartinezm.UserDefined" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,13 +15,10 @@
 	
 	<%-- El uso de la directiva page import nos sirve para importar
 	un paquete en específico de forma sencilla --%>
-	<%@ page import="java.util.Date" %>
 	<%= new Date() %>
 	
 	<br/>
-	
 	<%-- Sin embargo también podemos importar métodos Custom por ejemplo: --%>
-	<%@ page import="org.ymartinezm.UserDefined" %>
 	<% out.print( new UserDefined().Demo()); %>
 	
 </body>
