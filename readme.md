@@ -45,3 +45,9 @@ Su estructura se compone de los siguientes elementos:
 * `property="firstName"`: Indica la propiedad a la cual mapeará el valor
 * `name="user"`: Hace referencia al ID del bean declarado, en este caso User
 * `value="Yanni"`: Es el nuevo valor que adoptará la propiedad
+
+### Uso de Beans en Formularios
+
+Para poder tener una correspondencia 1 a 1 entre la información enviada y el Bean de java podemos hacer uso de la siguiente sentencia:
+`<jsp:setProperty property="*" name="user"/>`
+
