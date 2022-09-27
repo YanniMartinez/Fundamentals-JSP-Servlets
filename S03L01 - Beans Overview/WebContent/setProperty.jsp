@@ -4,9 +4,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Set Property</title>
 </head>
 <body>
-
+	
+	<%-- Indicando que usaremos un bean --%>
+	<jsp:useBean id="user" class="org.ymartinezm.beans.User" scope="session"></jsp:useBean>
+	
+	<%-- Estableciendo valores a las propiedades del Bean --%>
+	<jsp:setProperty property="firstName" name="user" value="Yanni"/>
+	<jsp:setProperty property="lastName" name="user" value="Martinez"/>
+	
+	Values Have been set
+	
 </body>
 </html>
