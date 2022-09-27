@@ -6,6 +6,9 @@
 ## Importación de metodos
 
 ## Uso de JavaBean
+
+Un javaBean no es más que la encapsulación de información independiente de objetos, usamos Beans para enviar o recibir información de forma sencilla.
+
 Para poder hacer uso de un JavaBean dentro de un JSP es necesario declarar que lo usaremos primero, en el siguiente ejemplo podemos ver un panorama general de ello:
 `<jsp:useBean id="user" class="org.ymartinezm.beans.User" scope="session"></jsp:useBean>`
 

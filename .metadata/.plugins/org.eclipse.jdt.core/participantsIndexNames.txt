@@ -25,6 +25,8 @@ C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.js
 \S01L06 - JSP Scriptlets\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3665602580.index
 \S02L04 - Forms under Servlet\src\main\java
+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2901596891.index
+\S03L04 - Beans with web forms\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1167589193.index
 \S01L05 - Hello JSP\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1575077271.index
