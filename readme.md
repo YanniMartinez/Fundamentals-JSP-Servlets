@@ -51,3 +51,31 @@ Su estructura se compone de los siguientes elementos:
 Para poder tener una correspondencia 1 a 1 entre la información enviada y el Bean de java podemos hacer uso de la siguiente sentencia:
 `<jsp:setProperty property="*" name="user"/>`
 
+### Cookies
+Los cookies nos permiten generar elementos que sirven como un diccionario llave:valor, los cuales permiten tener una abstracción de perseverancia de diferentes niveles, además permite que cierta información no se pierda.
+Para declarar una Cookie dentro de nuestro Servlet es tan sencillo como poner las siguientes declaraciones:
+
+```
+//Creación de Cookie, actuan como llave:valor
+Cookie cUsername = new Cookie("username",username);
+//Agregando la cookie
+response.addCookie(cUsername);
+```
+
+Si quisieramos leer el contenido de una Cookie podemos emplear la siguiente sintaxis:
+```
+Cookie[] cookies= request.getCookies();
+if(cookies != null){
+    for(Cookie cookie: cookies){
+        if(cookie.getName().equals("username")){
+            username = cookie.getValue();
+        }
+        if(cookie.getName().equals("JSESSIONID")){
+            sessionID=cookie.getValue();
+        }
+    }
+}
+```
+Obtenemos valor con el siguiente elemento:
+`cookie.getValue()`
+
