@@ -19,6 +19,9 @@ La estructura base es se conforma de los siguientes componentes:
 El scope afectará la visibilidad y disponibilidad de nuestro Bean:
 
 * `session`: Sólo tendrá como alcance y visibilidad la sesión de un browser, es decir, si en un browser modificamos el valor a nivel sesión, entonces sólo se verá reflejado ahí, si abrimos otro browser notaremos los valores originales, porque los cambios sólo son a nivel sesión del browser. Esto quiere decir que se crean BEANS independientes por browser
+* `application`: Afecta la aplicación entera, cuando creamos un bean coon este scope sólo será creado 1 y en base a el se realizaran las consultas y modificaciones dentro de la aplicación. Veremos que afectará todo sin importar en que browser lo consultemos, una vez aplicados los cambios del SetProperty estos se veran reflejados en todas las futuras consultas Get que realicemos.
+* `page`:Sólo afecta a la página donde se está realizando la acción es decir, si cambiamos de página no veremos ningun impacto o modificación dentro de la información que queremos, para verla reflejada debemos modificarla y consultarla dentro de la misma página. Esto quiere decir que 1 único Bean es creado por página.
+* `request`: 
 
 
 ### Uso de GetProperty
