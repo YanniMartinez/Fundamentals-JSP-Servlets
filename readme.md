@@ -15,13 +15,13 @@ La estructura base es se conforma de los siguientes componentes:
 * `class="org.ymartinezm.beans.User"`: Indica la clase del Bean con la ruta completa partiendo desde el package.
 * `scope="session"`: Indica el alcance del uso, en este caso hace referencia a Sesion.
 
-### Scope
+### Bean Scope Types
 El scope afectará la visibilidad y disponibilidad de nuestro Bean:
 
 * `session`: Sólo tendrá como alcance y visibilidad la sesión de un browser, es decir, si en un browser modificamos el valor a nivel sesión, entonces sólo se verá reflejado ahí, si abrimos otro browser notaremos los valores originales, porque los cambios sólo son a nivel sesión del browser. Esto quiere decir que se crean BEANS independientes por browser
 * `application`: Afecta la aplicación entera, cuando creamos un bean coon este scope sólo será creado 1 y en base a el se realizaran las consultas y modificaciones dentro de la aplicación. Veremos que afectará todo sin importar en que browser lo consultemos, una vez aplicados los cambios del SetProperty estos se veran reflejados en todas las futuras consultas Get que realicemos.
 * `page`:Sólo afecta a la página donde se está realizando la acción es decir, si cambiamos de página no veremos ningun impacto o modificación dentro de la información que queremos, para verla reflejada debemos modificarla y consultarla dentro de la misma página. Esto quiere decir que 1 único Bean es creado por página.
-* `request`: 
+* `request`: Sólo se tiene el alcance por petición, es decir, si la cambiamos la información no se verá reflejada. Es decir, se crea un bean por cada petición. para verlo de una manera clara lo que podemos hacer es un Forward para que podamos verlo dado que seguirá formando parte de la petición. Recordemos que con el forward seguimos en el mismo URL pero despliega la información de otro JSP, es decir, sigue formando parte de la misma petición .
 
 
 ### Uso de GetProperty

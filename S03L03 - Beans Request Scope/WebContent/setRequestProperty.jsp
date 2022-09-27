@@ -17,5 +17,12 @@
 	
 	Values Have been set
 	
+	<%-- Haciendo un forward del GET para poder ver el cambio dentro de la misma petición
+	Recordemos que en el forward nos mantenemos en este JSP pero desplegamos la información
+	del JSP que tiene GET --%>
+	<%
+		request.getRequestDispatcher("getRequestProperty.jsp").forward(request, response);
+	%>
+	
 </body>
 </html>

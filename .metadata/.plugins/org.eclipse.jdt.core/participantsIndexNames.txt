@@ -29,6 +29,8 @@ C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.js
 \S01L05 - Hello JSP\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1575077271.index
 \S01L10 - Directive\src\main\java
+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3809880500.index
+\S03L03 - Beans Request Scope\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3279647495.index
 \S03L02 - Beans Scope Types\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3429175249.index
