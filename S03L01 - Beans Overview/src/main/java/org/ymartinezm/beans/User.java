@@ -6,11 +6,12 @@ package org.ymartinezm.beans;
  * Siempre tendrá un constructor por defecto, getters y setters*/
 
 public class User {
-	String firstName;
-	String lastName;
+	private String firstName;
+	private String lastName;
 	
 	public User() {
-		
+		firstName="Yann";
+		lastName="Martinez";
 	}
 
 	public String getFirstName() {
