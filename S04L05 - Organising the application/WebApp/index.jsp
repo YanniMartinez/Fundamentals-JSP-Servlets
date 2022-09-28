@@ -8,5 +8,6 @@
 </head>
 <body>
 	Index site
+	<a href="<%= request.getContextPath()%>/SiteController?action=login">Login</a>
 </body>
 </html>
