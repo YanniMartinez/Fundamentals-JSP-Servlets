@@ -80,3 +80,6 @@ Obtenemos valor con el siguiente elemento:
 `cookie.getValue()`
 
 **NOTA:** El uso de Cookies para administrar el inicio de sesión no es la mejor práctica es por ello que es mejor usar el session attribute.
+
+### Filtros Servlet
+Un filtro a rasgos generales es un archivo de JAVA. Dentro de este archivo el método más importante es el **doFilter**, podemos identificar rápidamente que se trata de un filtro gracias al siguiente decorador: `@WebFilter("/MemberAreaFilter")` en este path debemos poner el mismo path sobre el que queremos aplicar alguna especie de filtro.
