@@ -52,6 +52,8 @@ Para poder tener una correspondencia 1 a 1 entre la información enviada y el Be
 `<jsp:setProperty property="*" name="user"/>`
 
 ### Cookies
+Se definen como un espacio de memoria dentro del navegador para un website específico.
+
 Los cookies nos permiten generar elementos que sirven como un diccionario llave:valor, los cuales permiten tener una abstracción de perseverancia de diferentes niveles, además permite que cierta información no se pierda.
 Para declarar una Cookie dentro de nuestro Servlet es tan sencillo como poner las siguientes declaraciones:
 
@@ -81,5 +83,27 @@ Obtenemos valor con el siguiente elemento:
 
 **NOTA:** El uso de Cookies para administrar el inicio de sesión no es la mejor práctica es por ello que es mejor usar el session attribute.
 
+
+Sí sólo quisieramos obtener las cookies podemos usar `request.getCookies();`
+
+### Invalidar una sesion
+Para llevar a cabo este proceso lo que podemos hacer es utilizar la siguiente sentencia: `request.getSession().invalidate();`
+
+La siguiente sentencia retorna la sesion actual, si no existe entonces la asocia con la petición la cual retorna una nueva petición: `request.getSession(true)`
+
+
+### Encode URL
+Para codificar la URL podemos usar la siguiente sentencia: `response.encodeURL()`
+
 ### Filtros Servlet
 Un filtro a rasgos generales es un archivo de JAVA. Dentro de este archivo el método más importante es el **doFilter**, podemos identificar rápidamente que se trata de un filtro gracias al siguiente decorador: `@WebFilter("/MemberAreaFilter")` en este path debemos poner el mismo path sobre el que queremos aplicar alguna especie de filtro.
+
+
+
+
+# JSTL
+Son etiquetas que se recomiendan para usar en vez de usar Scriplets o lógica dentro de estos elementos. Para conocer más detalles refiera a la [Documentación oficial](https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html).
+En general las JSTL se pueden agrupar en 5 categorias: Core, XML, I18N, Database y Functions
+
+Las etiquetas de Database no están recomendadas para ser usadas dentro de vistas, es por ello que es mejor no hacer uso de ellas.
+Para hacer uso de JSTL podemos hacer uso de Maven o difectamente descargar el JarFile de la siguiente [ruta](https://mvnrepository.com/artifact/jstl/jstl/1.2) 
