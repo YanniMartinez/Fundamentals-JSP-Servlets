@@ -79,3 +79,4 @@ if(cookies != null){
 Obtenemos valor con el siguiente elemento:
 `cookie.getValue()`
 
+**NOTA:** El uso de Cookies para administrar el inicio de sesión no es la mejor práctica es por ello que es mejor usar el session attribute.
