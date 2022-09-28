@@ -1,18 +1,13 @@
 INDEX VERSION 1.4+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1560759847.index
-3809880500.index
+3752920712.index
 3213402688.index
-3279647495.index
 1664459870.index
-115784789.index
 3947269555.index
 4137184942.index
-743543040.index
 2706225717.index
 1868012075.index
 1752968076.index
 933584709.index
-2448322703.index
 320842718.index
 2839610962.index
 2673540605.index
@@ -23,15 +18,12 @@ INDEX VERSION 1.4+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\
 2383099751.index
 1209140986.index
 3879334034.index
-3665602580.index
 3281049986.index
-4108762202.index
-1044177079.index
-2901596891.index
+743543040.index
 2081538830.index
 2205515900.index
 2861214859.index
-3773377677.index
+2554168217.index
 3058286844.index
 2588493315.index
 2208592017.index
