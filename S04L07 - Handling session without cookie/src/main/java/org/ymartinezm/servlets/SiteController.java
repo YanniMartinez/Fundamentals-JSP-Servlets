@@ -76,7 +76,12 @@ public class SiteController extends HttpServlet {
 			//Manda el atributo
 			newSession.setAttribute("username", username);
 			
-			response.sendRedirect(request.getContextPath()+"/MemberAreaController?action=memberArea");
+			//Haciendo el encoding de la URL
+			String encode = response.encodeUrl(request.getContextPath());
+			/**Cuando queramos autenticar veremos el session ID en la URL en caso de ser
+			requerido, si no existe la cookie entonces se propaga de ese modo:
+			Ej: http://localhost:8080/S04L01_-_Session_Under_JSP_Overview;jsessionid=40B405589417DB0890090254219E49F5/MemberAreaController?action=memberArea*/
+			response.sendRedirect(encode+"/MemberAreaController?action=memberArea");
 		}else {
 			response.sendRedirect(request.getContextPath()+"/SiteController?action=login");
 		}
