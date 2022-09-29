@@ -246,3 +246,17 @@ Para hacer uso de un for each es tan sencillo como usar la siguiente sintaxis:
 </c:forEach>
 ```
 
+### Importando contenido en JSTL
+Para importar contenido de un archivo JSP que tenga el encabezado o algo similar podemos usar la siguiente sintaxis:
+`<c:import url="/include/header.jsp"></c:import>`
+
+### Mandando parametros desde importacion JSTL
+Si quisieramos importar un header por ejemplo, pero queremos mandarle dinámico el valor del titulo podemos hacer uso de la siguiente sintaxis:
+
+```
+<c:import url="/include/header.jsp">
+	<c:param name="title" value="Titulo desde parametro JSTL"></c:param>
+</c:import>
+```
+
+Notese que dentro de las etiquetas de importación del header mandamos la etiqueta `<c:param` indicando que se trata de un parametro cuyo nombre es **title** y el valor que tomará es **Titulo desde parametro JSTL**

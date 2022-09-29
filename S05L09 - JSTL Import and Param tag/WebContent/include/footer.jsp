@@ -1,3 +1,4 @@
+	<hr/>
 	<br/>
 	Tutorial sobre JSTL
 	
