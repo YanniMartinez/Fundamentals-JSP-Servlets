@@ -13,7 +13,7 @@
 </head>
 <body>
 	<!-- Primero hay que importar nuestro XML -->
-	<c:import url="/User.xml" var="XMLFile"></c:import>
+	<c:import url="/Users.xml" var="XMLFile"></c:import>
 	<!-- Uso de tags XML -->
 	<x:parse xml="${XMLFile }" var="XMLDoc"></x:parse>
 	<!-- Este out es simular, sin embargo debemos indicar los nodos o valores a imprimr -->
