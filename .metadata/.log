@@ -12433,3 +12433,15 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.C
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:47.006
 !MESSAGE executing callback sts4.classpath.TpIzAjPt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 18:02:49.508
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TpIzAjPt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 18:02:49.508
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TpIzAjPt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 18:02:49.509
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 18:02:49.510
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TpIzAjPt => OK
