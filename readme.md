@@ -196,3 +196,26 @@ Para poder realizar una condición es tan sencilla como incluir la siguiente tag
 `<c:if test="${param.name == 'Yann'}"></c:if>`. Donde **test** es mandatorio y ahí irá la sentencia a evaluar, dentro de ella podemos poner lógica o objetos implicitos.
 **NOTA:** Recordemos que se recomienda usar lógica de negocio fuera de las vistas.
 
+### Choose y When tags
+Para hacer uso de esta lógica es tan sencillo como poner la siguiente sintaxis:
+```
+<c:choose>
+	
+    <c:when test="${ }"></c:when>
+    <c:when test="${ }"></c:when>
+    <c:when test="${ }"></c:when>
+
+</c:choose>
+```
+
+Notaremos que dentro del When tenemos un elementos parecido al de nuestro if llamado **test** ahí dentro irá la sentencia a evaluar.
+
+Para considerar todos los casos diferentes podemos utilizar la siguiente etiqueta:
+```
+<%-- Este es el caso ideal para considerar todos los demás
+casos --%>
+<c:otherwise>
+    Learning something Good!
+</c:otherwise>
+```
+
