@@ -191,3 +191,8 @@ ${user.lastName}
 <c:out value="${user.firstName}"></c:out>
 ```
 
+### Realizar condicionales dentro de JSTL
+Para poder realizar una condición es tan sencilla como incluir la siguiente tag:
+`<c:if test="${param.name == 'Yann'}"></c:if>`. Donde **test** es mandatorio y ahí irá la sentencia a evaluar, dentro de ella podemos poner lógica o objetos implicitos.
+**NOTA:** Recordemos que se recomienda usar lógica de negocio fuera de las vistas.
+
