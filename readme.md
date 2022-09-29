@@ -219,3 +219,12 @@ casos --%>
 </c:otherwise>
 ```
 
+### Loop For en JSTL
+```
+<c:forEach var="i" begin="1" end="10">
+    ${i}
+    <br/>
+</c:forEach>
+```
+
+Podemos poner el atributo **step** para indicar como deberá comportarse nuestra variable.

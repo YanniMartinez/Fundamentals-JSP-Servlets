@@ -13,6 +13,8 @@ C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.js
 \S01L07 - JSP Scriptlets\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4108762202.index
 \S04L03 - Session destroy\src\main\java
+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2904006125.index
+\S05L06 - JSTL for loop\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4077602606.index
 \S01L14 - Reading URL parameters\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3575888487.index
