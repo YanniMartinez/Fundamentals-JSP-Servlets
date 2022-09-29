@@ -228,3 +228,21 @@ casos --%>
 ```
 
 Podemos poner el atributo **step** para indicar como deberá comportarse nuestra variable.
+
+### Loop forEach en JSTL
+Para hacer uso de un for each es tan sencillo como usar la siguiente sintaxis:
+```
+<%
+    String[] names = new String[3];
+    names[0] = "Yann";
+    names[1] = "Geo";
+    names[2] = "Lau";
+%>
+
+<%-- En items pondremos nuestra colección --%>
+<c:forEach items="<%=names %>" var="name" >
+    ${name}	
+    <br/>
+</c:forEach>
+```
+
