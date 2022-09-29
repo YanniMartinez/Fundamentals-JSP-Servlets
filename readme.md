@@ -260,3 +260,9 @@ Si quisieramos importar un header por ejemplo, pero queremos mandarle dinámico 
 ```
 
 Notese que dentro de las etiquetas de importación del header mandamos la etiqueta `<c:param` indicando que se trata de un parametro cuyo nombre es **title** y el valor que tomará es **Titulo desde parametro JSTL**
+
+### Funciones de JSTL
+Para poder hacer uso de ellas hay que importar la siguiente biblioteca `<%@ taglib prefix = "fn" uri = "http://java.sun.com/jsp/jstl/functions" %>` y apoyarnos del lenguaje de expresión `${}`.
+Por ejemplo haciendo uso de la función **Length** podemos declararlo de la siguiente manera:
+`${fn:length("Hello World") }`
+
