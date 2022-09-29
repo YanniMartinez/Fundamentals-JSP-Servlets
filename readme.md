@@ -107,3 +107,70 @@ En general las JSTL se pueden agrupar en 5 categorias: Core, XML, I18N, Database
 
 Las etiquetas de Database no están recomendadas para ser usadas dentro de vistas, es por ello que es mejor no hacer uso de ellas.
 Para hacer uso de JSTL podemos hacer uso de Maven o difectamente descargar el JarFile de la siguiente [ruta](https://mvnrepository.com/artifact/jstl/jstl/1.2) 
+
+## Como importar las tags de JSTL
+
+* Core Tags
+
+    <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+
+* Formatting Tags
+
+    <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
+
+* SQL Tags
+
+    <%@ taglib prefix = "sql" uri = "http://java.sun.com/jsp/jstl/sql" %>
+
+* XML tags
+
+    <%@ taglib prefix = "x" uri = "http://java.sun.com/jsp/jstl/xml" %>
+
+* JSTL Functions
+
+    <%@ taglib prefix = "fn" uri = "http://java.sun.com/jsp/jstl/functions" %>
+
+
+## Como usar TagLibs
+Una vez que hayamos importado una biblioteca como la siguiente:
+`<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>`
+
+Es sencillo interpretarlo, lo que decimos es que estamos importando una library y el prefijo para su uso será **c**, es decir, corresponde al siguiente fragmento declarado: `prefix = "c"`
+
+Tras importar podemos encontrar todo lo que se encuentra contenido en `<c:>`, por ejemplo lo siguientes casos:
+
+```
+//Hace referencia a que hará un set a una variable llamada NAME y el valor será YANN:
+<c:set var="name" value="Yann"></c:set>
+
+//Hace referencia a que mandará a la salida el valor de la variable NAME
+<c:out value="name"></c:out>
+```
+
+Dentro de JSTL podemos hacer uso del lenguaje de expresiones como el siguiente caso:
+
+```
+<!-- Usando lenguaje de expresión: -->
+<c:out value="${name}"></c:out>
+
+<!-- Otra manera de imprimir el valor por lenguaje de expresion es la siguiente -->
+${name}
+```
+
+* Cómo liberar espacio en memoria que usa una variable:
+    ```
+    <!-- Liberando memoria usada por una variable -->
+	<c:remove var="name"/>
+	<!-- Nunca se imprimirá porque no existe la variable -->
+	${name}
+    ```
+
+* Como mostrar o usar el valor de un parametro proveniente de un URL:
+    ```
+    <!-- Forma de imprimir el valor de un parametro por URL llamado msg, basarnos
+	en el siguiente ejemplo: 
+	http://localhost:8080/S05L02_-_JSTL_Set_and_remove_Tags/JSTLDemo.jsp?msg=HelloWorld 
+	Notese que imprime el valor del parametro llamado msg-->
+	${param.msg}
+    ```
+
