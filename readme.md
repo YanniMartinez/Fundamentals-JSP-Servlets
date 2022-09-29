@@ -174,3 +174,20 @@ ${name}
 	${param.msg}
     ```
 
+## Implicit objects
+Para consultar todo el listado de [Objetos implicitos click aquí](https://studyeasy.org/general/implicit-objects/)
+Con estos objetos implicitos podemos extraer información.
+
+### Información proveniente de un Java Bean
+```
+<jsp:useBean id="user" class="org.ymartinezm.beans.User" scope="page"></jsp:useBean>
+<!-- Imprimiendo el valor de un atributo de nuestro Bean con lenguaje de expresion -->
+${user.getFirstName()}
+<!-- También podemos llamar atributos -->
+${user.fistName}
+${user.lastName}
+
+<!-- También podemos hacer uso de la tag c:out -->
+<c:out value="${user.firstName}"></c:out>
+```
+
