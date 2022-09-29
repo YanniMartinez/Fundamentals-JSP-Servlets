@@ -11975,3 +11975,461 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:35.520
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:35.522
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2fc70622[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=971)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:35.539
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:35.823
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:44.923
+!MESSAGE Boot LS startup time from start to initialized: 9368ms
+
+!ENTRY org.eclipse.jface.text 4 0 2022-09-29 17:59:44.924
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1155)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	... 6 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.890
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TpIzAjPtisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.897
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.900
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.901
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.902
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.903
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TpIzAjPt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.907
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.908
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L09 - JSTL Import and Param tag false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.909
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.910
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.911
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S08L01 - Adding Sample XML false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.912
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.913
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.914
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L05 - Hello JSP false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.915
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.916
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.917
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L06 - JSP Expressions false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.919
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.920
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L07 - JSP Scriptlets false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.920
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.921
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.922
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L08 - JSP Declarations false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.923
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.924
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.925
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L09 - JSP Comments false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.925
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.927
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.928
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L10 - Directive false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.929
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.930
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.931
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L11 - Annotations false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.932
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.933
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.934
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L12 - Deployment_Descriptor false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.935
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.936
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.937
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L13 - JSP configuration in deployment descriptor false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.937
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.939
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.939
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L14 - Reading URL parameters false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.940
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.941
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.942
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L15 - Include Files in JSP Page false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.942
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.943
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.944
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L16 - Import class into JSP page false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.945
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.946
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.947
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L17 - Forward and redirect under JSP false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.948
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.949
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.950
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S01L20 - Basic Application based on MVC false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.951
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.952
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.953
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S02L03 - Forms under JSP false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.953
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.955
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.956
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S02L04 - Forms under Servlet false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.958
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.959
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S03L01 - Beans Overview false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.961
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.962
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S03L02 - Beans Scope Types false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.963
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.963
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.964
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S03L03 - Beans Request Scope false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.965
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.966
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.967
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S03L04 - Beans with web forms false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.970
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.970
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L01 - Session Under JSP Overview false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.971
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.973
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.974
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L02 - Read and write operation of cookie false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.975
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.976
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.977
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L03 - Session destroy false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.978
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.979
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.980
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L04 - User Logout using session attribute false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.982
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.984
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.985
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L05 - Organising the application false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.986
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.987
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.988
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L06 - Fixing redifrect and forward links false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.988
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.989
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.990
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L07 - Handling session without cookie false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.991
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.992
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.993
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S04L08 - Servlet Filters false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.993
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.994
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.995
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L01 - JSTL Settingup false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.996
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.997
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:45.999
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L02 - JSTL Set and remove Tags false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.000
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.001
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.002
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L03 - Reading from Bean using Expression Langugage false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.020
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.021
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.022
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L04 - Decision making under JSTL false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.023
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.024
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.025
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L05 - Choose and When tags false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.025
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.027
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.028
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L06 - JSTL for loop false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.029
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.030
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.030
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L07 - JSTL forEach loop false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.031
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.033
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.034
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L08 - JSTL ForTokens false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.035
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.036
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.037
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L10 - JSTL URL and Redirect tags false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.038
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.039
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.040
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S05L11 - JSTL Catch Tag false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.040
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.041
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.042
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S06L01 - Good to Know information false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.044
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.045
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S07L01 - JSTL Length function false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.046
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.047
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.048
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S07L02 - JSTL Trim and escapeXML false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.049
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.050
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.051
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S07L03 - JSTL endsWith contains false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.052
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.053
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.054
+!MESSAGE buffering callback sts4.classpath.TpIzAjPt S07L04 - JSTL even more functions false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:46.055
+!MESSAGE executing callback sts4.classpath.TpIzAjPt 45 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-29 17:59:47.006
+!MESSAGE executing callback sts4.classpath.TpIzAjPt SUCCESS [done]

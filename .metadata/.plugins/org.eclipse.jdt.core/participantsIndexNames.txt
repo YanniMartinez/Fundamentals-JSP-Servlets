@@ -83,6 +83,8 @@ C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.js
 \S01L13 - JSP configuration in deployment descriptor\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2668653179.index
 \S05L08 - JSTL ForTokens\src\main\java
+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4123905107.index
+\S08L01 - Adding Sample XML\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\402584444.index
 \S01L06 - JSP Scriptlets\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1962486360.index
