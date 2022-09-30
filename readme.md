@@ -266,3 +266,11 @@ Para poder hacer uso de ellas hay que importar la siguiente biblioteca `<%@ tagl
 Por ejemplo haciendo uso de la función **Length** podemos declararlo de la siguiente manera:
 `${fn:length("Hello World") }`
 
+
+### Local ID
+Nos permite identificar el país en Java mediante su ID para consultar más detalles al respecto podemos hacer referencia [A la siguiente documentación](https://www.localeplanet.com/java/)
+Por ejemplo, algunas páginas lo que hacen es indicar el Locale ID en el parámetro para identificar que región o lenguaje usar para mostrar contenido, un ejemplo de ello es la siguiente ruta: `https://id.hotels.com?pos=HCOM_ID&locale=in_ID`
+El local ID siempre se conformará de 2 partes `Lenguaje_Pais`, por ejemplo:
+* es_MX : Español_Mexico
+* en_IN : Ingles_India
+

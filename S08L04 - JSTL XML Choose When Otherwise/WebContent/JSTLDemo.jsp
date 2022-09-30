@@ -25,7 +25,8 @@
 					
 					<td> <b> <x:out select="name"/></b> </td>
 					<td> <b><x:out select="gender"/></b></td>
-					<td> <b><x:out select="age"/></b></td>
+					<td> <b>
+					<x:out select="age"/></b></td>
 					
 				</x:when>
 				
