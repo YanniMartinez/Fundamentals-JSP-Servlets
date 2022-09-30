@@ -282,3 +282,25 @@ Cuando queramos emplear internacionalización será necesario hacer uso de UTF-8
 
 Además debemos hacer modificaciones en nuestro IDE, para el caso de Eclipse sólo debemos seleccionar el proyecto: `window->Preferences->General->Workspace` y seleccionar en `text file encoding` la opción de UTF-8.
 
+
+### Uso del Format Tag FMT
+Para poder hacer uso de esta biblioteca podemos usarla con su prefijo **fmt**. Por ejemplo para establecer el Locale podemos usar la siguiente sentencia: 
+`<fmt:setLocale value="${param.locale }"/>`
+
+Finalmente si quisieramos leer propiedades basadas en el Locale y definidas en un archivo podemos realizar utilizar la siguiente sintaxis:
+```
+<fmt:bundle basename="i18n/website">
+	
+    <!-- Mostrando el valor de las etiquetas con FMT -->
+    <p><fmt:message key="label.hello">Yann</fmt:message></p>
+    <p><fmt:message key="label.welcome"></fmt:message></p>
+    <p><fmt:message key="label.message"></fmt:message></p>
+    <p><fmt:message key="label.thanks"></fmt:message></p>
+
+</fmt:bundle>
+```
+
+Donde:
+* Basename: Es el paquete y archivo donde almacenamos ciertas propiedades.
+* key: Es el nombre de la propiedad la cual queremos desplegar
+
