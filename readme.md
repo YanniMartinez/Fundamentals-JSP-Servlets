@@ -274,3 +274,11 @@ El local ID siempre se conformará de 2 partes `Lenguaje_Pais`, por ejemplo:
 * es_MX : Español_Mexico
 * en_IN : Ingles_India
 
+Cuando queramos emplear internacionalización será necesario hacer uso de UTF-8 debido a la gran variedad de caracteres y lenguajes, refiera a la siguiente importación:
+```
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+```
+
+Además debemos hacer modificaciones en nuestro IDE, para el caso de Eclipse sólo debemos seleccionar el proyecto: `window->Preferences->General->Workspace` y seleccionar en `text file encoding` la opción de UTF-8.
+
