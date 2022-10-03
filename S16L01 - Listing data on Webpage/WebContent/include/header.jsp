@@ -47,7 +47,7 @@
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
             <li><a href="${pageContext.request.contextPath}/home?page=home">HOME</a></li>
-            <li><a href="${pageContext.request.contextPath}/home?page=listUsers">LIST USERS</a></li>
+            <li><a href="${pageContext.request.contextPath}/home?page=listusers">LIST USERS</a></li>
     		<li><a href="index.html">HOME</a></li>
           </ul>
         </div><!--/.nav-collapse -->

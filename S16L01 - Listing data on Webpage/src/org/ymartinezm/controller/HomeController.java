@@ -31,7 +31,7 @@ public class HomeController extends HttpServlet {
 		case "home":
 			request.getRequestDispatcher("index.jsp").forward(request, response);
 			break;
-		case "listUser":
+		case "listusers":
 			List<User> listUsers = new ArrayList<>();
 			listUsers = new UsersModel().listUsers(dataSource);
 			request.setAttribute("listUsers",listUsers);
