@@ -12,6 +12,6 @@
 	<!-- Agregando campo para mostrar el error -->
   <error-page>
 	<error-code>404</error-code>
-	<location>/pageNotFound</location>
+	<location>/error.jsp</location>
   </error-page>
 </web-app>
