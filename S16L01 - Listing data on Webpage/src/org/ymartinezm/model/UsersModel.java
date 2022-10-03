@@ -7,9 +7,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
+import javax.sql.DataSource;
+
+import org.ymartinezm.entity.User;
+
 public class UsersModel {
-	public List<User> listUsers() {
-		PrintWriter out= response.getWriter();
+	public List<User> listUsers(DataSource dataSource) {
+		
 		
 		//Step 1: Initialize Connection Objects
 		Connection con = null;
@@ -28,7 +32,7 @@ public class UsersModel {
 			
 			//Step 4: Process the result set
 			while(rs.next()) {
-				out.print("<br/>" + rs.getString("email"));
+				
 			}
 			
 			
