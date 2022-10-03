@@ -342,3 +342,5 @@ Cuando en el mapping URL tenemos la siguiente ruta **/** significa que nuestro S
 		response.getWriter().print(message2);
     ```
 
+### JNDI
+Java Naming and Directory Interface, es una manera de hacer conexiones a la base de datos debido a que gestiona de forma automática el pool de conexiones y supone un buen performance a comparación de hacerlo de forma nativa.
