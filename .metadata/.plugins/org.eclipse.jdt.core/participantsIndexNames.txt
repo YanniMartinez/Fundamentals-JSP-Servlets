@@ -57,6 +57,10 @@ C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.js
 \S05L07 - JSTL forEach loop\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2218095484.index
 \S05L10 - JSTL URL and Redirect Tags\src\main\java
+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\73379031.index
+\S16L02 - Making use of include directive\src
+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\124389495.index
+\S16L02 - Making use of include directive\src
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3575888487.index
 \S05L05 - Choose and When tags\src\main\java
 C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\743543040.index

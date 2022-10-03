@@ -1,0 +1,11 @@
+<Context>
+  <!--Contexto para realzar la conexión DB-->
+  <Resource name="jdbc/project" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="25" maxIdle="5" maxWait="10000"
+               username="root" password="admin" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+			   useSSL="false"
+               url="jdbc:mysql://127.0.0.1:3306/javaee_db?serverTimezone=UTC"/>
+ 
+</Context>
