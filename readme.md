@@ -304,3 +304,41 @@ Donde:
 * Basename: Es el paquete y archivo donde almacenamos ciertas propiedades.
 * key: Es el nombre de la propiedad la cual queremos desplegar
 
+### Inicializacion de Servlets
+Cuando en el mapping URL tenemos la siguiente ruta **/** significa que nuestro Servlet manejará todas las peticiones que lleguen de nuestro WebService.
+
+#### Metodo INIT en Servlets
+
+* LEGACY:
+    ```
+    /**
+        * @see Servlet#init(ServletConfig)
+        * Este método sirve para inicializar elementos cuando cargamos el Servlet
+        * dentro de nuestro WebServer. 
+        * 
+        * Sin embargo está es la versión LEGACY, es decir, la forma antigua
+        */
+        public void init(ServletConfig config) throws ServletException {
+            message="Message from init method";
+        }
+    ```
+
+* Versión reciente:
+
+    La inicialización de los parametros ocurre justo al inicio de la clase: 
+
+    ```
+    @WebServlet(
+		urlPatterns = { "/Demo2" }, 
+		initParams = { 
+				@WebInitParam(name = "message2", value = "Initialization from annotation", description = "Initialization from annotation description")
+		})
+    ```
+    Notese que para esta versión vemos la anotación **@WebInitParam** que inicializa los parametros.
+    Y para recopilarlo y mandarlo a llamar se hace de la siguiente forma:
+    ```
+    ServletConfig config = getServletConfig();
+		String message2 = config.getInitParameter("message2");
+		response.getWriter().print(message2);
+    ```
+

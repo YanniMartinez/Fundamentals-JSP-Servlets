@@ -58,7 +58,6 @@ INDEX VERSION 1.131+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugin
 1153238897.index
 2390478466.index
 1796364086.index
-3065869403.index
 1649732240.index
 2205515900.index
 1209140986.index
@@ -117,7 +116,6 @@ INDEX VERSION 1.131+C:\Users\Yann\Documents\JavaEE-JSP-Servlet\.metadata\.plugin
 1548889748.index
 979328095.index
 1033186083.index
-2406034930.index
 3947269555.index
 4137184942.index
 1026051582.index

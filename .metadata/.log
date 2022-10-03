@@ -13375,3 +13375,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 11:11:09.880
 !MESSAGE executing callback sts4.classpath.MfwRThVz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 11:13:03.015
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 11:13:03.022
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 11:13:03.028
+!MESSAGE buffering callback sts4.classpath.MfwRThVz S14L01 - Servlets Initialization false 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 11:13:03.029
+!MESSAGE executing callback sts4.classpath.MfwRThVz 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 11:13:03.052
+!MESSAGE executing callback sts4.classpath.MfwRThVz SUCCESS [done]
