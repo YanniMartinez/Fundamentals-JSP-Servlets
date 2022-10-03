@@ -14,7 +14,20 @@ public class HomeController extends HttpServlet {
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String page = request.getParameter("page");
+		page = page.toLowerCase();
 		
+		switch (page) {
+		case "home":
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+			break;
+		case "listUser":
+			request.getRequestDispatcher("listUser.jsp").forward(request, response);
+			break;
+		default:
+			request.getRequestDispatcher("error.jsp").forward(request, response);
+			break;
+		}
 	}
 
 }
