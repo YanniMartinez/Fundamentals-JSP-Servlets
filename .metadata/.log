@@ -3428,3 +3428,60 @@ org.xml.sax.SAXParseException; lineNumber: 9; columnNumber: 86; The reference to
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.299
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.300
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.301
+!MESSAGE buffering callback sts4.classpath.WllxfGgx S13L03 - Integrate template with project using JSTL false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.302
+!MESSAGE executing callback sts4.classpath.WllxfGgx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.346
+!MESSAGE executing callback sts4.classpath.WllxfGgx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.658
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.671
+!MESSAGE classpath=4 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.674
+!MESSAGE buffering callback sts4.classpath.WllxfGgx S13L03 - Integrate template with project using JSTL false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.675
+!MESSAGE executing callback sts4.classpath.WllxfGgx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.683
+!MESSAGE executing callback sts4.classpath.WllxfGgx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.958
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.959
+!MESSAGE buffering callback sts4.classpath.WllxfGgx S13L03 - Integrate template with project using JSTL false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.960
+!MESSAGE executing callback sts4.classpath.WllxfGgx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:06:57.969
+!MESSAGE executing callback sts4.classpath.WllxfGgx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:07:05.975
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WllxfGgx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:07:05.976
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WllxfGgx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:07:05.977
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-03 14:07:05.977
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WllxfGgx => OK
