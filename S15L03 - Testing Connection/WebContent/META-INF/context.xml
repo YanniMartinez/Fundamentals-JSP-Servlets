@@ -5,6 +5,7 @@
                maxActive="25" maxIdle="5" maxWait="10000"
                username="root" password="admin" 
                driverClassName="com.mysql.cj.jdbc.Driver"
-               url="jdbc:mysql://127.0.0.1:3306/javaee_db?useSSL=false"/>
+			   useSSL="false"
+               url="jdbc:mysql://127.0.0.1:3306/javaee_db?serverTimezone=UTC"/>
  
 </Context>
