@@ -8516,3 +8516,30 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:30:18.079
 !MESSAGE executing callback sts4.classpath.fONIlUdw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:11.989
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:11.991
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:11.991
+!MESSAGE buffering callback sts4.classpath.fONIlUdw S18L01 - Upgrating the form false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:11.992
+!MESSAGE executing callback sts4.classpath.fONIlUdw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:12.038
+!MESSAGE executing callback sts4.classpath.fONIlUdw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:20.097
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fONIlUdw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:20.098
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fONIlUdw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:20.099
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-04 12:49:20.099
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fONIlUdw => OK
