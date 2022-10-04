@@ -3,7 +3,7 @@
 <div class="container mtb">
 	<div class="row">
 		<div class="col-lg-6">
-			<form action="${pageContext.request.contextPath }/appController">
+			<form action="${pageContext.request.contextPath }/operation" method="post">
 				  <div class="form-group">
 				    <label for="exampleInputEmail1">Email address</label>
 				    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
