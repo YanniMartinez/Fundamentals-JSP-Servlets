@@ -1,2 +1,8 @@
 /.metadata/
 /.Servers
+*.jar
+*.class
+*.meta
+*desktop
+*.ini
+*.log
